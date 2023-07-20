@@ -12,7 +12,7 @@ def insert_school(mongo_collection, **kwargs):
 
         Return:
             Id of the new element
-        """
-        new_school = mongo_collection.insert_one(kwargs)
+    """
+     new_school = mongo_collection.insert_one(kwargs)
 
-        return (new_school.insert_id)
+     return (new_school.insert_id)
